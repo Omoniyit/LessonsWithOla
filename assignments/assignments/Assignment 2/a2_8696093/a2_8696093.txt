@@ -1,0 +1,219 @@
+##############################
+PART 1
+##############################
+Welcome to addition / multiplication test 
+Please make a selection
+A or a for Addition
+M or m for multiplication
+Make a selection : k
+WRONG OPERATION, PLEASE TRY AGAIN 
+
+Good bye
+
+Welcome to addition / multiplication test 
+Please make a selection
+A or a for Addition
+M or m for multiplication
+Make a selection : A
+
+How many questions would you like to solve?
+	Enter a non negative integer for the answer:  0
+
+Good Bye
+
+Welcome to addition / multiplication test 
+
+Please make a selection
+A or a for Addition
+M or m for multiplication
+Make a selection : a
+
+How many questions would you like to solve?
+	Enter a non negative integer for the answer:  4
+
+This software will test you with 4 questions.....
+What is the sum of 0 + 8 ? 8
+What is the sum of 1 + 5 ? 7
+Incorrect - the answer is 6
+What is the sum of 2 + 5 ? 7
+What is the sum of 0 + 2 ? 0
+Incorrect - the answer is 2
+
+
+Please study more and ask your teacher for help.
+Good bye
+
+Welcome to addition / multiplication test 
+Please make a selection
+A or a for Addition
+M or m for multiplication
+Make a selection : m
+
+How many questions would you like to solve?
+	Enter a non negative integer for the answer:  2
+
+This software will test you with 2 questions.....
+What is the multiple of 2 * 3 ? 6
+What is the multiple of 3 * 3 ? 9
+
+Well done! Congratulations. 
+Good bye
+
+######################################################################################
+Part 2
+######################################################################################
+
+#Question 1
+>>> size_format(623)
+623 B
+>>> size_format(1500)
+1.5 KB
+>>> size_format(2732888)
+2.7 MB
+>>> size_format(2762888)
+2.8 MB
+>>> size_format(-11230)
+buy a new a hard disk
+
+#Question 2
+>>> add_article("Canada")
+le Canada
+>>> add_article("Cambodge")
+le Cambodge
+>>> add_article("Belgique")
+la Belgique
+>>> add_article("Italie")
+l'Italie
+>>> add_article("Pay-Bas")
+les Pay-Bas
+
+#Question 3
+>>> factorial(0)
+1
+>>> factorial(1)
+1
+>>> factorial(2)
+2
+>>> factorial(3)
+6
+>>> factorial(4)
+24
+>>> factorial(5)
+120
+>>> factorial(500)
+1220136825991110068701238785423046926253574342803192842192413588385845373153881997605496447502203281863013616477148203584163378722078177200480785205159329285477907571939330603772960859086270429174547882424912726344305670173270769461062802310452644218878789465754777149863494367781037644274033827365397471386477878495438489595537537990423241061271326984327745715546309977202781014561081188373709531016356324432987029563896628911658974769572087926928871281780070265174507768410719624390394322536422605234945850129918571501248706961568141625359056693423813008856249246891564126775654481886506593847951775360894005745238940335798476363944905313062323749066445048824665075946735862074637925184200459369692981022263971952597190945217823331756934581508552332820762820023402626907898342451712006207714640979456116127629145951237229913340169552363850942885592018727433795173014586357570828355780158735432768888680120399882384702151467605445407663535984174430480128938313896881639487469658817504506926365338175055478128640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+#Question 4
+>>> special_count([2020, 600, 800, 22])
+2
+>>> special_count([44,-1200,100, 0])
+2
+# Question 5
+
+>>> vote()
+Enter the yes, no, abstained votes one by one and then press enter:
+yes Yes yes yes Y abstained abstained y yes yes yes
+proposal passes unanimously
+
+>>> vote()
+Enter the yes, no, abstained votes one by one and then press enter:
+yes,yes, no,  YES, no, yes, abstained, yEs,  Y,no
+proposal passes with super majority
+
+>>> vote()
+Enter the yes, no, abstained votes one by one and then press enter:
+abstained no abstained yes no yes no yes yes yes no
+proposal passes with simple majority
+
+>>> vote()
+Enter the yes, no, abstained votes one by one and then press enter:
+no yes no no no, yes yes yes no
+proposal fails
+
+#Question 6
+
+>>> stats_v1(1)
+The minimum and the average of the following numbers:
+45 
+is 45 and 45.0
+
+>>> stats_v1(3)
+The minimum and the average of the following numbers:
+-68 3 38 
+is -68 and -9.0
+
+>>> stats_v2(4)
+The minimum value and average for the following numbers:
+45 -26 26 -20
+is -26 and 6.25
+
+>>> stats_v2(4)
+The minimum value and average for the following numbers:
+-87 4 -13 -29
+is -87 and -31.25
+
+
+#Question 7
+
+>>> emphasize('v')
+'v '
+
+>>> emphasize('')
+''
+
+>>> emphasize('  song ?  tr a ')
+'    s o n g   ?     t r   a   '
+
+>>> emphasize('v')
+'v '
+
+>>> emphasize('  song ?  tr a ')
+'    s o n g   ?     t r   a   '
+
+>>> emphasize('')
+''
+
+>>> emphasize('very important')
+'v e r y   i m p o r t a n t '
+
+>>> emphasize(' really?')
+'  r e a l l y ? '
+
+#Question 8
+
+>>> crypto('Good Day')
+'yGaoDo d'
+
+>>> crypto('Good Days')
+'sGyoaoDd '
+
+>>> crypto(',4?tr')
+'r,t4?'
+
+
+>>> crypto('ab')
+'ba'
+
+>>> crypto('a')
+'a'
+
+>>> crypto('')
+''
+#Question 9
+
+>>> stranger_things([1],[2,"aha"])
+False
+
+>>> stranger_things([1,2,True, '7'],[1,False,True,5])
+True
+
+>>> stranger_things([1,2,3,4],[1,2,3,4])
+False
+
+>>> stranger_things([1,2,4],[1,'2',3])
+False
+
+>>> stranger_things([1,2,4],[1,'2',4])
+True
+
+>>> stranger_things([],[])

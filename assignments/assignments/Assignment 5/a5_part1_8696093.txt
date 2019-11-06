@@ -1,0 +1,11 @@
+Question 1a)
+The function call does roughly n log_2 n operations
+
+Question 1b)
+The function call does roughly n log_2 n + n operations
+
+Question 1c)
+The function call does roughly n operations
+
+Question 1d)
+The function call does roughly n operations

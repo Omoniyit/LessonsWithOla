@@ -1,0 +1,1 @@
+In this Lesson I will try to get you familiar with syntax and variable creation. View the ReadME and lectures 1-3! Begin Assignment 1.
